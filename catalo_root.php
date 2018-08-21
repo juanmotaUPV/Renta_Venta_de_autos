@@ -52,8 +52,8 @@
               <td><?php echo $car->Modelo ?></td>
               <td><?php echo $car->Estado ?></td>
               <! botones para eliminar o editar el vehiculo>
-              <td><button href="<?php echo "edit_car.php?id=" . $car->id ?>" type="button" class="btn btn-dark">Edit</button></td>
-              <td><button href="<?php echo "delete_car.php?id=" . $car->id ?>" type="button" class="btn btn-dark">Delete</button></td>
+              <td><a href="<?php echo "edit_car.php?idAutos=" . $car->idAutos ?>" class="btn btn-dark" role="button" aria-pressed="true">Edit</a></td>
+              <td><a href="<?php echo "delete_car.php?idAutos=" . $car->idAutos ?>" class="btn btn-dark" role="button" aria-pressed="true">Delete</a></td>
             </tr>
           <?php } ?>
         </tbody>
