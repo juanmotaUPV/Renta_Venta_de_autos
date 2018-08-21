@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="catalo_root.php">Catalogue</a>
+            <a class="nav-link" href="catalogueP.php">Catalogue</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

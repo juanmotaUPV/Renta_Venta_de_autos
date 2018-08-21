@@ -11,8 +11,13 @@
     $sql = "SELECT * FROM Clientes WHERE User='$user' AND Pass='$pass'";
     $res=$db->query($sql);
     if($res->num_rows==1){// si si la hay, guarda el nombre de usuario y se dirige a la pagina de inicio ya logeado
-      $_SESSION['username'] = $user;
-      header("location: home_logged.php");
+      if($user=="superRoot"&&$pass=="superPass"){
+        header("location: catalo_root.php");
+      }else{
+        $_SESSION['username'] = $user;
+        header("location: home_logged.php");
+      }
+      
     }else{// sino se manda un mensaje de error
       $message="User and/or password are invalids";
     }
