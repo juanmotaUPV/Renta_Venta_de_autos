@@ -25,12 +25,7 @@
         RentO'Buy A Car
       </a>
     </nav>
-
     <br>
-    <! boton para añadir un nuevo vehiculo>
-    <div class="container"><a href="add_car.php" class="btn btn-dark" role="button" aria-pressed="true">Add a new one</a></div>
-    <br>
-
     <div class="container">
       <! tabla que muestra la informacion de os vehiculos>
       <table class="table">
