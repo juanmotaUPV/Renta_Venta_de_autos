@@ -30,7 +30,7 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <?php echo $_SESSION['username'] ?>
-          <a class="nav-link" href="home.php">Log Out</a>
+          <a class="nav-link" href="index.php">Log Out</a>
         </form>
       </div>
     </nav>
